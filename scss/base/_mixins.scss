@@ -1,0 +1,9 @@
+
+// Media query breakpoints
+
+
+@mixin small-screen {
+  @media ($small-screen) {
+    @content;
+  }
+}

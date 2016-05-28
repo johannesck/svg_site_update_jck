@@ -1,0 +1,59 @@
+
+header {
+  padding-top: 10px;
+  nav {
+    padding-bottom: 50px;
+    text-align: left;
+    ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+  h1 {
+    line-height: 1em;
+  }
+  #icon-home,
+  #icon-visit-us,
+  #icon-contact {
+    display: inline-block;
+    height: 13px;
+    transform-origin: 50% 50%;
+    transition: .4s .2s ease-out;
+  }
+  #icon-visit-us {
+    height: 14px;
+  }
+  .icon-svg {
+    fill: $svg-icons;
+
+    &:hover {
+      fill: $color-link--default;
+      transform: rotate(180deg) scale(1.8);
+      margin-right: 5px;
+    }
+  }
+  #logo-svg {
+    width: 140px;
+    height: 120px;
+    margin: auto;
+    .logo-text {
+      @include small-screen {
+        display: none;
+      }
+    }
+  }
+  #logo-text-h1 {
+    display: none;
+    @include small-screen {
+      display: block;
+      text-transform: uppercase;
+      color: $logo-text-h1;
+      font-size: 1em;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+
+
+

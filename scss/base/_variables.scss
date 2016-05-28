@@ -1,0 +1,33 @@
+
+// Font stacks
+
+$font-url--google : 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700';
+$font-family      : 'Roboto Slab', serif;
+
+
+// Descriptive color variables
+
+$white          : #fff;
+$cod-gray       : #111;
+$muddy-waters   : #ba8058;
+$scooter        : #39add1;
+$porcelain      : #edeff0;
+$tacao          : #eaaa7f;
+
+
+// Functional color variables
+
+$color-link--default: $scooter;
+$color-link--hover: $cod-gray;
+
+$color-text-body        : $cod-gray;
+$background-body-default: $white;
+$background-body-outer  : $porcelain;
+$color-text-footer      : $muddy-waters;
+$logo-text-h1           : $tacao; // used on small screens instead of svg text
+$svg-icons              : $tacao;
+
+
+// Media query breakpoints
+
+$small-screen: 'max-width: 420px';
